@@ -1,0 +1,159 @@
+/* tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --amber-500: #ffc107;
+    --amber-500-01: #fbbc04;
+    --black-900: #0b0c0c;
+    --black_900_01: #000000;
+    --black_900_19: #00000019;
+    --blue-700: #286fe5;
+    --blue-a200: #4285f4;
+    --blue_gray_100: #d6dae2;
+    --blue_gray_100_01: #d6d5d5;
+    --blue-gray-200: #b4b6c4;
+    --blue-gray-200_01: #adaeb5;
+    --blue_gray_300: #8a96a4;
+    --blue_gray_400: #888ea2;
+    --blue_gray_600: #5d6180;
+    --blue_gray_700: #535479;
+    --blue_gray_800: #3e454f;
+    --blue_gray_900_01: #162834;
+    --blue_gray_900: #262635;
+    --blue_gray-900_0c: #1b28340c;
+    --gray_100: #f5f5f5;
+    --gray_100_01: #f5f5f6;
+    --gray_200: #ebe7eb;
+    --gray_100: #f5f5f5;
+    --gray_100_01: #f5f5f6;
+    --gray_200: #ebe7eb;
+    --gray-200_01: #e7e7e7;
+    --gray-200_02: #fefefe;
+    --gray-300: #ebebeb;
+    --gray-300_01: #ddele6;
+    --gray-300_02: #dbdbdb;
+    --gray-400: #c0bfc0;
+    --gray-400_01: #bdbdbd;
+    --gray-50: #f5f8fa;
+    --gray-500: #949494;
+    --gray-500_01: #a8a8a8;
+    --gray-500_02: #979797;
+    --gray-600: #777c84;
+    --gray-600_01: #848484;
+    --gray-500_99: #777c8499;
+    --gray-800: #4f4f4f;
+    --gray-800_01: #505050;
+    --gray-800_02: #3c4043;
+    --green-400: #65bc6a;
+    --green-600: #34a853;
+    --green-600_81: #359766;
+    --green-700: #398f3e;
+    --green-800: #29752b;
+    --green-900: #236823;
+    --green-900_01: #038100;
+    --red-500: #ea4335;
+    --red-600: #e64343;
+    --red-600_01: #e04243;
+    --red-800: #ce0f24;
+    --teal-400: #389674;
+    --white-a700: #ffffff;
+    --white-a700-4c: #ffffff4c;
+    --white-a700-cc: #ffffffcc;
+    --shadow-xs: 8 2px 12px 0 #00000019;
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-1g: 8px;
+    --radius-xl: 10px;
+    --radius-2xl: 12px;
+    --radius-3xl: 18px;
+    --radius-4xl: 22px;
+    --radius-5xl: 30px;
+    --radius-6xl: 60px;
+    --space-xs: 4px;
+    --space-sm: 6px;
+    --space-md: 8px;
+    --space-1g: 9px;
+    --space-xl: 10px;
+    --space-xs: 4px;
+    --space-sm: 6px;
+    --space-md: 8px;
+    --space-lg: 9px;
+    --space-xl: 10px;
+    --space-2xl: 12px;
+    --space-3xl: 14px;
+    --space-4xl: 16px;
+    --space-5xl: 18px;
+    --space-6xl: 20px;
+    --space-7xl: 22px;
+    --space-8xl: 24px;
+    --space-9xl: 26px;
+    --space-10xl: 28px;
+    --space-11xl: 30px;
+    --space-12xl: 36px;
+    --space-13xl: 46px;
+    --space-14xl: 48px;
+    --space-15xl: 50px;
+    --space-16xl: 106px;
+  }
+}
+
+@layer components {
+  .ui.textarea.round {
+    @apply rounded-md;
+  }
+
+
+    .ui.textarea.size-xs {
+      @apply h-[114px] p-5 text-[16px];
+    }
+  
+    .ui.textarea.taroutlinebluegray100.white_a700 {
+      @apply border-blue_gray-100 border border-solid bg-white-a700;
+    }
+  
+    .ui.checkbox.square {
+      @apply rounded-[0px];
+    }
+  
+    .ui.checkbox.size-sm {
+      @apply h-[26px] w-[26px] pr-[34px] text-[16px];
+    }
+  
+    .ui.checkbox.size-xs {
+      @apply h-[20px] w-[20px] text-[16px];
+    }
+  
+    .ui.checkbox {
+      @apply flex items-center gap-[5px] cursor-pointer;
+    }
+    .ui.selectbox.square {
+      @apply rounded-[0px];
+    }
+  
+    .ui.selectbox.round {
+      @apply rounded-sm;
+    }
+  
+    .ui.selectbox.size-xs {
+      @apply h-[24px] px-1.5 text-[18px];
+    }
+  
+    .ui.selectbox.size-lg {
+      @apply h-[56px] px-[18px] text-[16px];
+    }
+  
+    .ui.selectbox.size-md {
+      @apply h-[48px] p1-3 text-[16px];
+    }
+  
+    .ui.selectbox.size-sm {
+      @apply h-[24px] px-1.5 text-[12px];
+    }
+  
+    .ui.selectbox.fill.white-a700 {
+      @apply fill-white-a700;
+  }

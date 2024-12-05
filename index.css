@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    display: block;
+  }
+  
+  input {
+    background-color: transparent;
+    width: 100%;
+  }
+ul {
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+    list-style: none;
+  }
+  
+  details[open] .faq-item-header::before {
+    background-image: url(../public/images/img_arrow_up.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+  }
+  
+  details {
+    width: 100%;
+  }
+  
+  details > summary {
+    list-style: none;
+  }
+  
+  [type="checkbox"] {
+    margin: 0px;
+  }
+  
+  details[open] .faq-section_item-header::before {
+    background-image: url(../public/images/img_arrow_up_black_988.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+  }
